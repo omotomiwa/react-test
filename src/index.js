@@ -5,11 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import "./components/Square";
 import Board from "./components/Board";
+import Game from "./components/Game";
 
 const name = "world";
 const element = <h1>hello, {name}</h1>;
 
-ReactDOM.render(<Board />, document.getElementById('root'));
+ReactDOM.render(<Game />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
