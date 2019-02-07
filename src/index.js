@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import "./components/Square";
-import Board from "./components/Board";
 import Game from "./components/Game";
 
 const name = "world";
